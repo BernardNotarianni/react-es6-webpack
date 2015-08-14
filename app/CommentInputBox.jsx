@@ -18,8 +18,6 @@ export default class CommentInputBox extends React.Component {
 
     var text = React.findDOMNode(this.refs.text).value.trim();
 
-    console.log(text);
-
     if (!text) {
       return;
     }
